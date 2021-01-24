@@ -27,7 +27,7 @@ pkgver() {
 }
 
 build() {
-  cd dwm-distrotube
+  cd dwm-mt
   make X11INC=/usr/include/X11 X11LIB=/usr/lib/X11 FREETYPEINC=/usr/include/freetype2
 }
 
