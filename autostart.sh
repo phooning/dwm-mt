@@ -1,0 +1,4 @@
+#! /bin/zsh
+
+picom &
+dwmblock &
